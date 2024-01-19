@@ -42,7 +42,7 @@ float Solution1::ConvertTemperature(float _value, TemperatureUnits _from, Temper
 
 	if (_from == TemperatureUnits::KELVIN && _to == TemperatureUnits::CELSIUS)
 	{
-		_result = _value - 273.15;
+		_result = _value - 273.15f;
 		std::cout << std::fixed << std::setprecision(2) << _result << std::endl;
 		//std::cout << _result << std::endl;
 	}
